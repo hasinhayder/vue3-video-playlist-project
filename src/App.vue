@@ -57,18 +57,6 @@
               allowfullscreen
             ></iframe>
           </div>
-          <div class="course-nav">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6 left">
-                  <button>Previous Episode</button>
-                </div>
-                <div class="col-md-6 right">
-                  <button>Next Episode</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
