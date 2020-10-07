@@ -1,0 +1,47 @@
+{
+  "data": {
+    "title": "Course Player - Vue 3 Options API",
+    "chapters": [
+      {
+        "title": "Chapter One",
+        "episodes": [
+          {
+            "title": "Episode One One One",
+            "length": "1:06 Minutes",
+            "vid": "VAZz_eYJJ1M",
+            "type": "youtube"
+          },
+          {
+            "title": "Episode Two",
+            "length": "5:06 Minutes",
+            "vid": "S_pJoNeMqj8",
+            "type": "youtube"
+          }
+        ]
+      },
+      {
+        "title": "Chapter Two",
+        "episodes": [
+          {
+            "title": "Episode One",
+            "length": "8:12 Minutes",
+            "vid": "vmgHZUD0v4c",
+            "type": "youtube"
+          },
+          {
+            "title": "Episode Two Two two",
+            "length": "5:23 Minutes",
+            "vid": "mmiPxxulXUk",
+            "type": "youtube"
+          },
+          {
+            "title": "Episode Three",
+            "length": "9:06 Minutes",
+            "vid": "nrZAZ0DmrlM",
+            "type": "youtube"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sidebar {
+  background-color: #ecf2fa;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.player {
+  background-color: #fff;
+  height: 100vh;
+  /* padding:0px; */
+}
+
+.sidebar .wrapper {
+  padding: 20px 15px 20px 0px;
+}
+
+.player .wrapper {
+  padding: 20px 15px 20px 15px;
+}
+
+h2.ctitle {
+  margin: 0;
+  /* padding: 05px 10px; */
+  /* border:1px solid #ccc; */
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  font-weight: normal;
+}
+
+ul.episodes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+ul.episodes li {
+  border: 1px solid #eee;
+  padding: 10px 15px;
+  margin-bottom: 2px;
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+h3.etitle {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+span.eduration {
+  font-size: 12px;
+  color: #888;
+}
+
+.elabel {
+  color: #fff;
+  background-color: #555;
+  padding: 4px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+ul.plactions,
+ul.practions {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.plactions li,
+ul.practions li {
+  display: inline;
+  cursor: pointer;
+}
+
+ul.plactions li:hover,
+ul.practions li:hover {
+  border-bottom: 3px solid #222;
+}
+
+ul.plactions li {
+  margin-right: 25px;
+}
+
+ul.practions {
+  text-align: right;
+}
+
+ul.practions li {
+  display: inline;
+  margin-left: 25px;
+}
+
+ul.practions li.emphasize {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+ul.practions li.emphasize:hover {
+  border-bottom: none;
+  background-color: #444;
+}
+
+h1.coursetitle {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: -8px;
+  font-size: 24px;
+}
+.course-player {
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.course-player:after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.course-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.course-nav {
+  margin-top: 20px;
+}
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+@media only screen and (max-width: 991px) {  
+  ul.plactions{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul.practions{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+      order: 2;
+  }
+  .player {
+      order: 1;
+      height:auto
+  }
+
+  .player .wrapper, .sidebar .wrapper{
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  .sidebar{
+    overflow-y: visible;
+    border-right: none;
+  }
+  
+  ul.plactions{
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  ul.practions{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+  }
+}
